@@ -6,7 +6,7 @@ def using_concat (my_favorite_things, more_favs)
 end
 
 def using_insert (list_of_programming_languages, another_language)
-  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "Python", "C++", "PHP"]
   another_language = ["Python"]
   list_of_programming_languages.insert(-3, another_language)
 end
@@ -26,7 +26,7 @@ def using_delete (array, string)
     instructors.delete("Steven")
 end
 
-def using_delete_at (famous_robots)
+def using_delete_at ()
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
   deleted_robot = famous_robots.delete_at(2)
 end 
