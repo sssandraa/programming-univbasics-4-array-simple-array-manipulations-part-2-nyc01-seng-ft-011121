@@ -10,9 +10,8 @@ def using_uniq (array)
   array.unique
 end
 
-def using_flatten (instruments)
-  instruments =  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  flat_array = instruments.flatten
+def using_flatten (array)
+  array.flatten
 end
 
 def using_delete (array, string)
