@@ -1,14 +1,9 @@
-def using_concat (my_favorite_things, more_favs)
-  my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
-  more_favs = ["sports cars", "flatiron school"]
- my_favorite_things.concat(["sports cars", "flatiron school"])
- return my_favorite_things
+def using_concat (array1, array2)
+  array1.concat(array2)
 end
 
-def using_insert (list_of_programming_languages, another_language)
-  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  another_language = ["Python"]
-  list_of_programming_languages.insert(-3, another_language)
+def using_insert (array, element)
+  array1.concat(array2)
 end
 
 def using_uniq (haircuts)
